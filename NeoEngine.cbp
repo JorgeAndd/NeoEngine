@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NeoEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\NeoEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\NeoEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_gfx" />
+			<Add option="-lSDL_mixer" />
+			<Add library="D:\CodeBlocks\MinGW\lib\SDL_image.lib" />
+			<Add library="D:\CodeBlocks\MinGW\lib\SDL_mixer.lib" />
+			<Add library="D:\CodeBlocks\MinGW\lib\SDL_ttf.lib" />
+		</Linker>
+		<Unit filename="AccObject.cpp" />
+		<Unit filename="AccObject.h" />
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Audio.cpp" />
+		<Unit filename="Audio.h" />
+		<Unit filename="Compass.cpp" />
+		<Unit filename="Compass.h" />
+		<Unit filename="FollowerObject.cpp" />
+		<Unit filename="FollowerObject.h" />
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.h" />
+		<Unit filename="InputManager.cpp" />
+		<Unit filename="InputManager.h" />
+		<Unit filename="Moon.cpp" />
+		<Unit filename="Moon.h" />
+		<Unit filename="Planet.cpp" />
+		<Unit filename="Planet.h" />
+		<Unit filename="PlanetRed.cpp" />
+		<Unit filename="PlanetRed.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="Rect.h" />
+		<Unit filename="SDLBase.cpp" />
+		<Unit filename="SDLBase.h" />
+		<Unit filename="Sprite.cpp" />
+		<Unit filename="Sprite.h" />
+		<Unit filename="State.cpp" />
+		<Unit filename="State.h" />
+		<Unit filename="StateManager.cpp" />
+		<Unit filename="StateManager.h" />
+		<Unit filename="State_End.cpp" />
+		<Unit filename="State_End.h" />
+		<Unit filename="State_Game.cpp" />
+		<Unit filename="State_Game.h" />
+		<Unit filename="State_Splash.cpp" />
+		<Unit filename="State_Splash.h" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
+		<Unit filename="TileMap.cpp" />
+		<Unit filename="TileMap.h" />
+		<Unit filename="TileSet.cpp" />
+		<Unit filename="TileSet.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="Vector.cpp" />
+		<Unit filename="Vector.h" />
+		<Unit filename="definitions.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

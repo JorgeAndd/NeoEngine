@@ -1,0 +1,647 @@
+# depslib dependency file v1.0
+1371164719 source:d:\dropbox\neoengine\sdlbase.cpp
+	"SDLBase.h"
+
+1368300924 "
+
+1371164484 d:\dropbox\neoengine\sdlbase.h
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_rotozoom.h>
+	"definitions.h"
+
+1365424307 ns.h"
+
+1346459544 source:d:\dropbox\neoengine\sprite.cpp
+	"Sprite.h"
+
+1346599803 
+
+1346636016 d:\dropbox\neoengine\sprite.h
+	"SDLBase.h"
+
+1369144914 source:d:\dropbox\neoengine\main.cpp
+	"StateManager.h"
+
+1346634637 ger.h"
+
+1345238722 d:\dropbox\neoengine\gamemanager.h
+	<time.h>
+	<vector>
+	"Point.h"
+	"Vector.h"
+	"SDLBase.h"
+	"Text.h"
+	"Sprite.h"
+	"Animation.h"
+	"InputManager.h"
+	"AccObject.h"
+	"FollowerObject.h"
+	"PlanetRed.h"
+	"Earth.h"
+	"Moon.h"
+	"TileMap.h"
+
+1346509204 source:d:\dropbox\neoengine\gameobject.cpp
+	"GameObject.h"
+
+1346509204 t.h"
+
+1366378585 d:\dropbox\neoengine\gameobject.h
+	"SDLBase.h"
+	"Rect.h"
+
+1338044874 d:\dropbox\neoengine\rect.h
+
+1346511672 d:\dropbox\neoengine\point.h
+
+1344645731 source:d:\dropbox\neoengine\inputmanager.cpp
+	"InputManager.h"
+
+1344644743 d:\dropbox\neoengine\inputmanager.h
+	"SDLBase.h"
+	"GameObject.h"
+	"Point.h"
+
+1345079935 source:d:\dropbox\neoengine\gamemanager.cpp
+	"GameManager.h"
+
+1345079935 er.h"
+
+1346625476 source:d:\dropbox\neoengine\planet.cpp
+	"Planet.h"
+
+1346625580 d:\dropbox\neoengine\planet.h
+	"GameObject.h"
+	"Sprite.h"
+	"Point.h"
+
+1346376399 source:d:\dropbox\neoengine\planetred.cpp
+	"PlanetRed.h"
+
+1346635951 .h"
+
+1346376407 d:\dropbox\neoengine\planetred.h
+	"Planet.h"
+
+1346635717 source:d:\dropbox\neoengine\tilemap.cpp
+	"TileMap.h"
+
+1346635730 d:\dropbox\neoengine\tilemap.h
+	"TileSet.h"
+
+1343759272 d:\dropbox\neoengine\tileset.h
+	<vector>
+	<math.h>
+	"Sprite.h"
+
+1368300924 source:d:\dropbox\neoengine\tileset.cpp
+	"TileSet.h"
+
+1369162231 source:d:\dropbox\neoengine\moon.cpp
+	"Moon.h"
+	"Vector.h"
+
+1346376427 d:\dropbox\neoengine\moon.h
+	"Planet.h"
+	<Math.h>
+
+1346375693 source:d:\dropbox\neoengine\earth.cpp
+	"Earth.h"
+
+1346376199 d:\dropbox\neoengine\earth.h
+	"Planet.h"
+
+1371162674 source:d:\dropbox\neoengine\animation.cpp
+	"Animation.h"
+
+1346636295 d:\dropbox\neoengine\animation.h
+	"Sprite.h"
+
+1346377657 source:d:\dropbox\neoengine\accobject.cpp
+	"AccObject.h"
+
+1346636190 d:\dropbox\neoengine\accobject.h
+	"Timer.h"
+	"GameObject.h"
+	"Animation.h"
+	"Point.h"
+	"Vector.h"
+
+1346634788 d:\dropbox\neoengine\vector.h
+	<Math.h>
+
+1346634749 source:d:\dropbox\neoengine\vector.cpp
+	<cmath>
+	"Vector.h"
+
+1346511242 d:\dropbox\neoengine\followerobject.h
+	<queue>
+	"GameObject.h"
+	"Point.h"
+	"Sprite.h"
+	<math.h>
+
+1369406061 source:d:\dropbox\neoengine\followerobject.cpp
+	"FollowerObject.h"
+
+1346691693 bject.h"
+
+1346635403 d:\dropbox\neoengine\text.h
+	"SDLBase.h"
+	"Point.h"
+
+1345634692 source:d:\dropbox\neoengine\text.cpp
+	"Text.h"
+
+1345566415 source:d:\dropbox\neoengine\audio.cpp
+	"Audio.h"
+
+1346636447 d:\dropbox\neoengine\audio.h
+	"SDLBase.h"
+
+1345356478 source:d:\dropbox\neoengine\state.cpp
+
+1346438048 source:d:\dropbox\neoengine\statemanager.cpp
+	"StateManager.h"
+
+1346091886 d:\dropbox\neoengine\statemanager.h
+	<time.h>
+	"SDLBase.h"
+	"InputManager.h"
+	"Timer.h"
+	"State.h"
+	"State_Splash.h"
+	"State_Game.h"
+	"State_End.h"
+
+1346434195 d:\dropbox\neoengine\state.h
+
+1346434195 d:\dropbox\neoengine\state_splash.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346635397 source:d:\dropbox\neoengine\state_splash.cpp
+	"State_Splash.h"
+
+1346635397 ash.h"
+
+1346599803 source:d:\dropbox\neoengine\timer.cpp
+	"Timer.h"
+
+1346553091 d:\dropbox\neoengine\timer.h
+	"SDLBase.h"
+
+1369402764 source:d:\dropbox\neoengine\state_game.cpp
+	"State_Game.h"
+	<Windows.h>
+
+1367505570 >
+
+1346533615 d:\dropbox\neoengine\state_game.h
+	<vector>
+	"Point.h"
+	"Vector.h"
+	"SDLBase.h"
+	"Text.h"
+	"Audio.h"
+	"Timer.h"
+	"InputManager.h"
+	"State.h"
+	"AccObject.h"
+	"FollowerObject.h"
+	"PlanetRed.h"
+	"Moon.h"
+	"Compass.h"
+	"TileMap.h"
+
+1346635951 source:d:\dropbox\neoengine\state_end.cpp
+	"State_End.h"
+
+1346600175 d:\dropbox\neoengine\state_end.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346511685 source:d:\dropbox\neoengine\point.cpp
+	"Point.h"
+
+1346636578 source:d:\dropbox\neoengine\compass.cpp
+	"Compass.h"
+
+1346636521 d:\dropbox\neoengine\compass.h
+	"Sprite.h"
+	"Point.h"
+	"Vector.h"
+
+1346632787 d:\dropbox\neoengine\definitions.h
+
+1346377657 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/AccObject.cpp
+	"AccObject.h"
+
+1346636190 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/AccObject.h
+	"Timer.h"
+	"GameObject.h"
+	"Animation.h"
+	"Point.h"
+	"Vector.h"
+
+1346553091 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Timer.h
+	"SDLBase.h"
+
+1365424307 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/SDLBase.h
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_rotozoom.h>
+	"definitions.h"
+
+1346632787 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/definitions.h
+
+1366378585 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/GameObject.h
+	"SDLBase.h"
+	"Rect.h"
+
+1365423797 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Rect.h
+
+1346636295 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Animation.h
+	"Sprite.h"
+
+1346636016 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Sprite.h
+	"SDLBase.h"
+
+1346511672 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Point.h
+
+1346634788 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Vector.h
+	<Math.h>
+
+1346636334 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Animation.cpp
+	"Animation.h"
+
+1345566415 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Audio.cpp
+	"Audio.h"
+
+1346636447 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Audio.h
+	"SDLBase.h"
+
+1346636578 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Compass.cpp
+	"Compass.h"
+
+1346636521 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Compass.h
+	"Sprite.h"
+	"Point.h"
+	"Vector.h"
+
+1346691693 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/FollowerObject.cpp
+	"FollowerObject.h"
+
+1346511242 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/FollowerObject.h
+	<queue>
+	"GameObject.h"
+	"Point.h"
+	"Sprite.h"
+	<math.h>
+
+1346509204 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/GameObject.cpp
+	"GameObject.h"
+
+1367504592 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/InputManager.cpp
+	"InputManager.h"
+
+1344644743 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/InputManager.h
+	"SDLBase.h"
+	"GameObject.h"
+	"Point.h"
+
+1346508228 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Moon.cpp
+	"Moon.h"
+	"Vector.h"
+
+1346376427 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Moon.h
+	"Planet.h"
+	<Math.h>
+
+1366378618 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Planet.h
+	"GameObject.h"
+	"Sprite.h"
+	"Point.h"
+
+1346625476 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Planet.cpp
+	"Planet.h"
+
+1346376399 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/PlanetRed.cpp
+	"PlanetRed.h"
+
+1346376407 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/PlanetRed.h
+	"Planet.h"
+
+1346511685 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Point.cpp
+	"Point.h"
+
+1365292541 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/SDLBase.cpp
+	"SDLBase.h"
+
+1346459544 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Sprite.cpp
+	"Sprite.h"
+
+1345356478 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State.cpp
+
+1346438048 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/StateManager.cpp
+	"StateManager.h"
+
+1346091886 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/StateManager.h
+	<time.h>
+	"SDLBase.h"
+	"InputManager.h"
+	"Timer.h"
+	"State.h"
+	"State_Splash.h"
+	"State_Game.h"
+	"State_End.h"
+
+1346434195 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State.h
+
+1346434195 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_Splash.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346635403 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Text.h
+	"SDLBase.h"
+	"Point.h"
+
+1346533615 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_Game.h
+	<vector>
+	"Point.h"
+	"Vector.h"
+	"SDLBase.h"
+	"Text.h"
+	"Audio.h"
+	"Timer.h"
+	"InputManager.h"
+	"State.h"
+	"AccObject.h"
+	"FollowerObject.h"
+	"PlanetRed.h"
+	"Moon.h"
+	"Compass.h"
+	"TileMap.h"
+
+1346635730 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/TileMap.h
+	"TileSet.h"
+
+1343759272 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/TileSet.h
+	<vector>
+	<math.h>
+	"Sprite.h"
+
+1346600175 /media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_End.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346635951 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_End.cpp
+	"State_End.h"
+
+1367505570 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_Game.cpp
+	"State_Game.h"
+	<Windows.h>
+
+1346635397 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/State_Splash.cpp
+	"State_Splash.h"
+
+1345634692 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Text.cpp
+	"Text.h"
+
+1346635717 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/TileMap.cpp
+	"TileMap.h"
+
+1368300924 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/TileSet.cpp
+	"TileSet.h"
+
+1346599803 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Timer.cpp
+	"Timer.h"
+
+1346634749 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/Vector.cpp
+	<cmath>
+	"Vector.h"
+
+1346634637 source:/media/jorge/3A09AF2948B045C4/Dropbox/NeoEngine/main.cpp
+	"StateManager.h"
+
+1346377657 source:/home/jorge/Dropbox/NeoEngine/AccObject.cpp
+	"AccObject.h"
+
+1346636190 /home/jorge/Dropbox/NeoEngine/AccObject.h
+	"Timer.h"
+	"GameObject.h"
+	"Animation.h"
+	"Point.h"
+	"Vector.h"
+
+1346553091 /home/jorge/Dropbox/NeoEngine/Timer.h
+	"SDLBase.h"
+
+1365424307 /home/jorge/Dropbox/NeoEngine/SDLBase.h
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_rotozoom.h>
+	"definitions.h"
+
+1346632787 /home/jorge/Dropbox/NeoEngine/definitions.h
+
+1366378585 /home/jorge/Dropbox/NeoEngine/GameObject.h
+	"SDLBase.h"
+	"Rect.h"
+
+1338044874 /home/jorge/Dropbox/NeoEngine/Rect.h
+
+1346636295 /home/jorge/Dropbox/NeoEngine/Animation.h
+	"Sprite.h"
+
+1346636016 /home/jorge/Dropbox/NeoEngine/Sprite.h
+	"SDLBase.h"
+
+1346511672 /home/jorge/Dropbox/NeoEngine/Point.h
+
+1346634788 /home/jorge/Dropbox/NeoEngine/Vector.h
+	<Math.h>
+
+1346636334 source:/home/jorge/Dropbox/NeoEngine/Animation.cpp
+	"Animation.h"
+
+1345566415 source:/home/jorge/Dropbox/NeoEngine/Audio.cpp
+	"Audio.h"
+
+1346636447 /home/jorge/Dropbox/NeoEngine/Audio.h
+	"SDLBase.h"
+
+1346636578 source:/home/jorge/Dropbox/NeoEngine/Compass.cpp
+	"Compass.h"
+
+1346636521 /home/jorge/Dropbox/NeoEngine/Compass.h
+	"Sprite.h"
+	"Point.h"
+	"Vector.h"
+
+1346509204 source:/home/jorge/Dropbox/NeoEngine/GameObject.cpp
+	"GameObject.h"
+
+1344645731 source:/home/jorge/Dropbox/NeoEngine/InputManager.cpp
+	"InputManager.h"
+
+1344644743 /home/jorge/Dropbox/NeoEngine/InputManager.h
+	"SDLBase.h"
+	"GameObject.h"
+	"Point.h"
+
+1369162231 source:/home/jorge/Dropbox/NeoEngine/Moon.cpp
+	"Moon.h"
+	"Vector.h"
+
+1346376427 /home/jorge/Dropbox/NeoEngine/Moon.h
+	"Planet.h"
+	<Math.h>
+
+1346625580 /home/jorge/Dropbox/NeoEngine/Planet.h
+	"GameObject.h"
+	"Sprite.h"
+	"Point.h"
+
+1346625476 source:/home/jorge/Dropbox/NeoEngine/Planet.cpp
+	"Planet.h"
+
+1346376399 source:/home/jorge/Dropbox/NeoEngine/PlanetRed.cpp
+	"PlanetRed.h"
+
+1346376407 /home/jorge/Dropbox/NeoEngine/PlanetRed.h
+	"Planet.h"
+
+1346511685 source:/home/jorge/Dropbox/NeoEngine/Point.cpp
+	"Point.h"
+
+1365292541 source:/home/jorge/Dropbox/NeoEngine/SDLBase.cpp
+	"SDLBase.h"
+
+1346459544 source:/home/jorge/Dropbox/NeoEngine/Sprite.cpp
+	"Sprite.h"
+
+1345356478 source:/home/jorge/Dropbox/NeoEngine/State.cpp
+
+1346438048 source:/home/jorge/Dropbox/NeoEngine/StateManager.cpp
+	"StateManager.h"
+
+1346091886 /home/jorge/Dropbox/NeoEngine/StateManager.h
+	<time.h>
+	"SDLBase.h"
+	"InputManager.h"
+	"Timer.h"
+	"State.h"
+	"State_Splash.h"
+	"State_Game.h"
+	"State_End.h"
+
+1346434195 /home/jorge/Dropbox/NeoEngine/State.h
+
+1346434195 /home/jorge/Dropbox/NeoEngine/State_Splash.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346635403 /home/jorge/Dropbox/NeoEngine/Text.h
+	"SDLBase.h"
+	"Point.h"
+
+1346533615 /home/jorge/Dropbox/NeoEngine/State_Game.h
+	<vector>
+	"Point.h"
+	"Vector.h"
+	"SDLBase.h"
+	"Text.h"
+	"Audio.h"
+	"Timer.h"
+	"InputManager.h"
+	"State.h"
+	"AccObject.h"
+	"FollowerObject.h"
+	"PlanetRed.h"
+	"Moon.h"
+	"Compass.h"
+	"TileMap.h"
+
+1346511242 /home/jorge/Dropbox/NeoEngine/FollowerObject.h
+	<queue>
+	"GameObject.h"
+	"Point.h"
+	"Sprite.h"
+	<math.h>
+
+1346635730 /home/jorge/Dropbox/NeoEngine/TileMap.h
+	"TileSet.h"
+
+1343759272 /home/jorge/Dropbox/NeoEngine/TileSet.h
+	<vector>
+	<math.h>
+	"Sprite.h"
+
+1346600175 /home/jorge/Dropbox/NeoEngine/State_End.h
+	"InputManager.h"
+	"State.h"
+	"Sprite.h"
+	"Audio.h"
+	"Text.h"
+
+1346635951 source:/home/jorge/Dropbox/NeoEngine/State_End.cpp
+	"State_End.h"
+
+1346691661 source:/home/jorge/Dropbox/NeoEngine/State_Game.cpp
+	"State_Game.h"
+	<Windows.h>
+
+1346635397 source:/home/jorge/Dropbox/NeoEngine/State_Splash.cpp
+	"State_Splash.h"
+
+1345634692 source:/home/jorge/Dropbox/NeoEngine/Text.cpp
+	"Text.h"
+
+1346635717 source:/home/jorge/Dropbox/NeoEngine/TileMap.cpp
+	"TileMap.h"
+
+1368300924 source:/home/jorge/Dropbox/NeoEngine/TileSet.cpp
+	"TileSet.h"
+
+1346599803 source:/home/jorge/Dropbox/NeoEngine/Timer.cpp
+	"Timer.h"
+
+1346634749 source:/home/jorge/Dropbox/NeoEngine/Vector.cpp
+	<cmath>
+	"Vector.h"
+
+1369144914 source:/home/jorge/Dropbox/NeoEngine/main.cpp
+	"StateManager.h"
+
